@@ -4,12 +4,12 @@
 
 #include "lib.h"
 
-bool convert(char &a){
-    if(a >= 65 && a <= 90){
-        a += 32;
+bool convert(char &x){
+    if(x >= 65 && x <= 90){
+        x += 32;
         return true;
-    }else if(a >= 97 && a <= 122){
-        a -= 32;
+    }else if(x >= 97 && x <= 122){
+        x -= 32;
         return true;
     }
     return false;

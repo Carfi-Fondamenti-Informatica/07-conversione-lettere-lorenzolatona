@@ -1,8 +1,7 @@
 //
-// Created by Lorenzo Latona Schettini on 06/1272022
+// Created by Lorenzo Latona Schettini on 06/12/2022
 //
 
-#include "lib.h"
 
 bool convert(char &x){
     if(x >= 65 && x <= 90){
